@@ -1,8 +1,8 @@
 package com.uhope.rl.application.exception;
 
 import com.uhope.rl.application.constants.Constant;
-import com.uhope.rl.application.result.ResponseMsgUtil;
-import com.uhope.rl.application.result.Result;
+import com.uhope.rl.base.result.ResponseMsgUtil;
+import com.uhope.rl.base.result.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;

@@ -67,21 +67,19 @@
             <version>${swagger.version}</version>
         </dependency>-->
 
-
-        <!--下载redis-client源码,只需运行一次将源码下载到本地仓库中，后面即可注释该段-->
-        <!-- <dependency>
-                 <groupId>com.uhope.uip.</groupId>
-                 <artifactId>redis-client</artifactId>
-                 <classifier>sources</classifier>
-                 <version>${redis.client.version}</version>
-             </dependency>-->
-
-        <!--引入rl-system-->
+        <!--引入rl-wechat-->
         <dependency>
             <groupId>com.uhope.rl</groupId>
             <artifactId>rl-wechat</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.zjh</groupId>
+            <artifactId>redis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>com.github.binarywang</groupId>
             <artifactId>weixin-java-miniapp</artifactId>
